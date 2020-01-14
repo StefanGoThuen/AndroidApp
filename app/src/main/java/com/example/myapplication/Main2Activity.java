@@ -16,6 +16,10 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
          editText = findViewById(R.id.edit);
          textView = findViewById(R.id.text);
+         String string = getIntent().getExtras().getString(MainActivity.MYSTRING);
+         if(string != null){
+             textView.setText(string);
+         }
     }
 
     public void onclick(View view) {

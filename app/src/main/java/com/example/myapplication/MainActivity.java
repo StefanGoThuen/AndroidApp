@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-
+public static final String MYSTRING = "mystring";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onclick(View view) {
-        startActivity(new Intent(this,Main2Activity.class));
+        Intent intent = new Intent(this,Main2Activity.class);
+        intent.putExtra(MYSTRING, "start string");
+        startActivity(intent);
     }
 }
