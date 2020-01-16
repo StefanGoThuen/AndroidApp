@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 public static final String MYSTRING = "mystring";
@@ -12,6 +13,11 @@ public static final String MYSTRING = "mystring";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String [] array = getResources().getStringArray(R.array.vectorArray);
+        for (String s : array){
+            Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void onclick(View view) {

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="click_me">click me</string>
-    <string name="toastMessage">a massage</string>
+    <string name="app_name">Min applikasjon</string>
+    <string name="click_me">Trykk meg!</string>
+    <string name="toastMessage">en melding</string>
     <string-array name="vectorArray">
         <item>you</item>
         <item>just</item>

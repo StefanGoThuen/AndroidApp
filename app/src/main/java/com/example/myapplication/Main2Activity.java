@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
     EditText editText;
@@ -24,6 +25,7 @@ public class Main2Activity extends AppCompatActivity {
         if (string != null) {
             textView.setText(string);
         }
+        Toast.makeText(this, getString(R.string.toastMessage), Toast.LENGTH_LONG).show();
     }
 
     public void onclick(View view) {
