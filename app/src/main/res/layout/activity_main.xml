@@ -15,9 +15,26 @@
         android:onClick="onclick"
         android:text="@string/click_me" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vector"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Trykk meg først!" />
+
+
+    <ImageSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <ImageView
+        android:id="@+id/vector"
         android:layout_width="1000dp"
         android:layout_height="500dp"
-        android:src="@drawable/cover1"></ImageView>
+        android:src="@drawable/cover1"
+        android:visibility="gone"
+        />
+    />
 
 </LinearLayout>

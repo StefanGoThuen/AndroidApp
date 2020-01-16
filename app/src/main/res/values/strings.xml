@@ -11,4 +11,5 @@
     <string name="text">en lang melding som jeg ikke er sikker på at skal stå inne i string.xml filen
     pls help
     </string>
+    <string name="checkbox">Uppercase checkbox</string>
 </resources>
