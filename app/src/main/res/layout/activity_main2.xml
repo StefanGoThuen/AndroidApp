@@ -11,7 +11,7 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -43,9 +43,10 @@
         android:text="@string/checkbox" />
 
     <TextView
+        android:padding="5dp"
         android:id="@+id/textViewTest"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="145dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/text"
         android:textSize="30sp"

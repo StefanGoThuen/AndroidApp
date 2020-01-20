@@ -19,22 +19,23 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/vector"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:text="Trykk meg først!" />
+        android:text="@string/surprise" />
 
 
-    <ImageSwitcher
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
+
     <ImageView
         android:id="@+id/vector"
         android:layout_width="1000dp"
         android:layout_height="500dp"
         android:src="@drawable/cover1"
-        android:visibility="gone"
-        />
-    />
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/quote"/>
+
 
 </LinearLayout>

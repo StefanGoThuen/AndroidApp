@@ -12,4 +12,5 @@
     pls help
     </string>
     <string name="checkbox">Uppercase checkbox</string>
+    <string name="surprise">click me first!</string>
 </resources>
